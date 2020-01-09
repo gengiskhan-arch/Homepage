@@ -2,10 +2,14 @@
 
 Contains work on designing a new homepage for DSP Help. The goal of the assignment is more to do with learning how to customize Flare skins and homepage.htm and less about producing a finished product.
 
-## Repository SetUp
+# Repository SetUp
 
 The Master branch contains the original Flare files.
 The develop branch contains project as it moves toward completion.
+
+## Use GitHub Tools
+
+* Use Issues to track develop problems I want to solve.
 
 ## Learning Objectives: Major
 
