@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultFileLinkSet
+  FileClass="home-page"
+  FileSearchable="true"
+  MasterPage="file:///C:/Users/Mary Tanzy/OneDrive - BackOffice Associates LLC/Documents/Current Projects/NewHomepage/Soledad/Content/Resources/MasterPages/HomePage.flmsp"
+  OnlyLocalStylesheets="false"
+  FileTimeEstimate="0"
+  FilePriority="0">
+  <Links>
+    <Link
+      Url="Content/Resources/MasterPages/HomePage.flmsp" />
+    <Link
+      Url="Content/Resources/Stylesheets/StylesForHomePage.css" />
+    <Link
+      Url="Content/Resources/Images/Assets/HeroStockImages/DataJourney.PNG" />
+    <Link
+      Url="Content/Sample Landing Topic.htm" />
+    <Link
+      Url="Content/Resources/Images/Assets/Icons/MainIcons/Services-white.png" />
+    <Link
+      Url="Content/Resources/Images/Assets/Icons/MainIcons/SharedFiles-white.png" />
+    <Link
+      Url="Content/Resources/Images/Assets/Icons/MainIcons/ManageListsandFAQs-white.png" />
+    <Link
+      Url="Content/Resources/Images/Assets/Icons/MainIcons/VideosImages-white.png" />
+    <Link
+      Url="Content/Resources/Images/Assets/Icons/MainIcons/Clients-black.png" />
+    <Link
+      Url="Content/Resources/Images/Assets/Icons/MainIcons/Solutions-black.png" />
+    <Link
+      Url="https://youtu.be/WWcJoqGJ1E0" />
+  </Links>
+  <LongLinks>
+    <Link
+      Url="Content/Resources/MasterPages/HomePage.flmsp" />
+    <Link
+      Url="Content/Resources/Stylesheets/StylesForHomePage.css" />
+    <Link
+      Url="Content/Resources/Images/Assets/HeroStockImages/DataJourney.PNG" />
+    <Link
+      Url="Content/Sample Landing Topic.htm" />
+    <Link
+      Url="Content/Resources/Images/Assets/Icons/MainIcons/Services-white.png" />
+    <Link
+      Url="Content/Resources/Images/Assets/Icons/MainIcons/SharedFiles-white.png" />
+    <Link
+      Url="Content/Resources/Images/Assets/Icons/MainIcons/ManageListsandFAQs-white.png" />
+    <Link
+      Url="Content/Resources/Images/Assets/Icons/MainIcons/VideosImages-white.png" />
+    <Link
+      Url="Content/Resources/Images/Assets/Icons/MainIcons/Clients-black.png" />
+    <Link
+      Url="Content/Resources/Images/Assets/Icons/MainIcons/Solutions-black.png" />
+    <Link
+      Url="https://youtu.be/WWcJoqGJ1E0" />
+  </LongLinks>
+  <Anchors />
+  <Keywords />
+  <Concepts />
+  <ConceptControlNames />
+  <IndexControlNames />
+  <Variables />
+  <FileConditions />
+  <FileTags />
+  <AllConditions />
+  <Stylesheets>
+    <Url
+      Source="Content/Resources/Stylesheets/StylesForHomePage.css" />
+  </Stylesheets>
+</CatapultFileLinkSet>

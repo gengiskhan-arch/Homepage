@@ -15,13 +15,20 @@ EXAMPLE: Since the Topic/Banner image is at the top of the home page, it will be
 
 ===========================================================================================================================================================*/
 
+/* Syniti Color Palette
+Syniti Purple rgb(91, 49, 238) cmyk(80%, 75%) HEX: #5B31EE
+Syniti Blue rgb(119, 176, 255) cnyk(55%, 20%) HEX: #77B0FF
+Sniti Mauve rgb(91, 49, 238) cmyk(80%, 75%) HEX: #BCAFFF
+Synit Off-White rgb(91, 49, 238) cmyk(805, 75%) HEX: # #F7F7F7
+Syniti Dark Indigo rbg(91, 49, 238) cmky(80%, 75%) HEX: #190033
+
 /* Home Page General Styles*/
 
 body
 {
-	font-family: Arial;
+	font-family: Work Sans, Arial;
 	line-height: 1.5em;
-	background-color: #e4e8e8;
+	background-color: #F7F7F7;
 }
 
 h1
@@ -38,7 +45,7 @@ h2
 
 p
 {
-	color: #5a5a5a;
+	color: #5B5B6D;
 	margin-bottom: 20px;
 	margin-top: 20px;
 	padding: 0px 20px;
@@ -46,7 +53,7 @@ p
 
 span.highlight	/*Span class used to change the color of text within block elements*/
 {
-	color: #19b9f3;
+	color: #BCAFFF;
 }
 
 .center
@@ -114,15 +121,21 @@ div.topic-hero	/*This is the Hero/Banner on the Home Page - To replace the banne
 {
 	background-size: cover;
 	background-repeat: no-repeat;
-	background-image: url('../Images/Assets/HeroStockImages/HeroImage-1.jpg');
+	background-image: url(Resources/Images/Assets/HeroStockImages/DataJourney.PNG);
 	background-position: center;
-	background-color: #aeaaf6;
+	background-color: #F7F7F7;
+	width: 80%;
 	height: 30%;
 	padding-bottom: 20px;
 	padding-top: 60px;
 	padding-left: 60px;
 	padding-right: 60px;
 	box-shadow: 0;
+}
+div.topic-hero-menu
+{
+	width: 80%;
+	background-color: transparent;
 }
 
 /*==Home Tiles section==*/
@@ -133,7 +146,7 @@ div.home-tiles-container
 	padding-bottom: 60px;
 	margin-left: auto;
 	margin-right: auto;
-	width: 75%;
+	width: 100%;
 	margin-top: px;
 }
 
@@ -164,7 +177,7 @@ div.home-tiles > div
 	float: left;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
-	height: 300px;
+	height: 400px;
 	background-color: rgba(0, 0, 0, 0.85);
 	padding-top: 20px;
 	padding-bottom: 20px;
@@ -204,7 +217,7 @@ p.tile-title
 {
 	text-align: center;
 	font-weight: bold;
-	color: #19b9f3;
+	color: #BCAFFF;
 }
 
 p.tile-subtitle
@@ -224,7 +237,7 @@ p.tile-content
 div.home-tiles a	/*Complex Selector: Links within the home tiles will have the following properties*/
 {
 	text-decoration: none;
-	color: #19b9f3;
+	color: #BCAFFF;
 	transition: all 0.3s cubic-bezier(.25,.8,.25,1);
 }
 
