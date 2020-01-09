@@ -5,16 +5,16 @@ Contains work on designing a new homepage for DSP Help. The goal of the assignme
 ## Repository SetUp
 
 The Master branch contains the original Flare files.
-THe develop branch contains project as it moves toward completion.
+The develop branch contains project as it moves toward completion.
 
 ## Learning Objectives: Major
 
-* Learn how to customize Flare output
-* Learn how to work in xhtml and css
+* Learn how to customize Flare output.
+* Learn how to work in xhtml and css.
 
 ## Learning Objectives: Minor
 
-* Learn more about CS basics such as file structure and tools (browser console)
-* Learn how to work in a code editor (Visual Studios Code)
-* Learn more about how to use GitHub
-* Learn how to write MD
+* Learn more about CS basics such as file structure and tools (browser console). Useful for efficient workflow.
+* Learn how to work in a code editor (Visual Studios Code). Useful for developing custom CSS for Flare.
+* Learn more about how to use GitHub. Useful for contributing to Doc Team online Help projects.
+* Learn how to write and edit MD. Useful for contributing to Doc Team internal process docs.
