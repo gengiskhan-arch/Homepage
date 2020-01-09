@@ -1,0 +1,551 @@
+﻿/*<meta />*/
+
+/* Home Page General Styles*/
+
+body
+{
+	font-family: Arial;
+	line-height: 1.5em;
+	background-color: #e4e8e8;
+}
+
+h1
+{
+	font-size: 2.75em;
+}
+
+h2
+{
+	font-size: 1.6785em;
+}
+
+p
+{
+	color: #5a5a5a;
+	margin-bottom: 8px;
+	margin-top: 8px;
+}
+
+span.highlight
+{
+	color: #19b9f3;
+}
+
+.centered-text
+{
+	text-align: center;
+}
+
+.center
+{
+	position: relative;
+	margin-right: auto;
+	margin-left: auto;
+	float: none !important;
+	text-align: center;
+}
+
+.off-canvas-content .main-section > .outer-row
+{
+	max-width: 100%;
+	padding: 0;
+}
+
+/* Mad Cap proxy/editor assigned styles */
+
+MadCap|searchBarProxy
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0;
+	margin-bottom: 0;
+	float: none;
+	width: 50%;
+}
+
+MadCap|topicToolbarProxy
+{
+	float: none;
+}
+
+MadCap|menuProxy.menu1
+{
+	mc-toc-depth: 1;
+	mc-context-sensitive: True;
+}
+
+MadCap|menuProxy.menu2
+{
+	mc-toc-depth: 1;
+	mc-context-sensitive: True;
+}
+
+html.home-page
+{
+	mc-community-features: disabled;
+}
+
+/*Top Navigation Bar Section*/
+/*==Adds transparency and allows topic-hero to flow below navigation==*/
+
+nav.title-bar
+{
+	position: absolute;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.72);
+	height: 84px;
+}
+
+div.search-container
+{
+	margin: auto 0;
+	width: 100%;
+	background-color: rgba(24, 99, 128, 0.88);
+	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+	position: absolute;
+	top: 84px;
+	padding-bottom: 10px;
+}
+
+/* Home Page Topic Hero section*/
+
+div.topic-hero
+{
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding-top: 20px;
+	height: 500px;
+	/*JUSTIN CHECK THIS*/
+	padding-bottom: 150px;
+	padding-top: 150px;
+	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+	background-image: url('../Images/Assets/HeroImage-1.jpg');
+}
+
+/* Content Card Section */
+
+div.home-card-container
+{
+	padding-top: 60px;
+	padding-bottom: 60px;
+	margin-top: -150px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 75%;
+}
+
+div.home-cards	/*This is a custom responsive layout row style (div class) in your stylesheet. To provide your own description for this style: (1) Open the stylesheet; (2) Find and select the div class with this name; and (3) In the Comment field, replace this text with your own. For more information on adding comments to styles, see the online Help.*/
+{
+	mc-grid-row: true;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.home-cards::before
+{
+	content: ' ';
+	display: table;
+}
+
+div.home-cards::after
+{
+	content: ' ';
+	display: table;
+	clear: both;
+}
+
+div.home-cards > div
+{
+	float: left;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	height: 300px;
+	background-color: rgba(0, 0, 0, 0.85);
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 11.5px;
+	padding-right: 11.5px;
+	transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+div.home-cards > div:nth-child(1)
+{
+	width: 16.667%;
+	margin-left: 12.667%;
+}
+
+div.home-cards > div:nth-child(2)
+{
+	width: 16.667%;
+	margin-left: 2%;
+}
+
+div.home-cards > div:nth-child(3)
+{
+	width: 16.667%;
+	margin-left: 2%;
+}
+
+div.home-cards > div:nth-child(4)
+{
+	width: 16.667%;
+	margin-left: 2%;
+}
+
+p.card-title
+{
+	text-align: center;
+	font-weight: bold;
+	color: #19b9f3;
+}
+
+p.card-subtitle
+{
+	text-align: center;
+	color: #ffffff;
+}
+
+p.card-content
+{
+	color: #ffffff;
+	font-size: 10pt;
+	text-align: center;
+}
+
+/* Home Page Footer */
+
+div.footer
+{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background: black;
+	background: -webkit-linear-gradient(#004863, black, black);
+	background: -o-linear-gradient(#004863, black, black);
+	background: -moz-linear-gradient(#004863, black, black);
+	background: linear-gradient(#004863, black, black);
+}
+
+div.footer a
+{
+	text-decoration: none;
+	color: #DADADA;
+}
+
+div.footer > div.outer-row
+{
+	line-height: 30px;
+	padding: 0;
+}
+
+div.home-master-page-footer	/*This is a custom responsive layout row style (div class) in your stylesheet. To provide your own description for this style: (1) Open the stylesheet; (2) Find and select the div class with this name; and (3) In the Comment field, replace this text with your own. For more information on adding comments to styles, see the online Help.*/
+{
+	mc-grid-row: true;
+	margin-left: auto;
+	margin-right: auto;
+	width: 55%;
+}
+
+div.home-master-page-footer::before
+{
+	content: ' ';
+	display: table;
+}
+
+div.home-master-page-footer::after
+{
+	content: ' ';
+	display: table;
+	clear: both;
+}
+
+div.home-master-page-footer > div
+{
+	float: left;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+div.home-master-page-footer > div:nth-child(1)
+{
+	width: 25%;
+	margin-left: 0%;
+}
+
+div.home-master-page-footer > div:nth-child(2)
+{
+	width: 50%;
+	margin-left: 0%;
+}
+
+div.home-master-page-footer > div:nth-child(3)
+{
+	width: 25%;
+	margin-left: 0%;
+}
+
+div.info-container
+{
+	margin-left: auto;
+	margin-right: auto;
+	width: 75%;
+	padding-bottom: 75px;
+}
+
+div.info-section	/*This is a custom responsive layout row style (div class) in your stylesheet. To provide your own description for this style: (1) Open the stylesheet; (2) Find and select the div class with this name; and (3) In the Comment field, replace this text with your own. For more information on adding comments to styles, see the online Help.*/
+{
+	mc-grid-row: true;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.info-section::before
+{
+	content: ' ';
+	display: table;
+}
+
+div.info-section::after
+{
+	content: ' ';
+	display: table;
+	clear: both;
+}
+
+div.info-section > div
+{
+	float: left;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+div.info-section > div:nth-child(1)
+{
+	width: 16.667%;
+	margin-left: 16.667%;
+}
+
+div.info-section > div:nth-child(2)
+{
+	width: 16.667%;
+	margin-left: 2%;
+}
+
+div.info-section > div:nth-child(3)	/*Video Div*/
+{
+	width: 33.333%;
+	margin-left: 5%;
+}
+
+p.info-title
+{
+	
+}
+
+p.info-content
+{
+	font-size: 9pt;
+}
+
+/* Medium Layout */
+
+@media tablet
+{
+	#content-section .right-section,
+	#content-section .left-section
+	{
+		padding: 0;
+	}
+
+	p.info-title
+	{
+		font-size: 24pt;
+	}
+
+	p.info-content
+	{
+		font-size: 12pt;
+	}
+
+	.left-section div.button-group > div
+	{
+		margin-bottom: 20px;
+	}
+
+	div.footer
+	{
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+
+	div.home-master-page-footer > div:nth-child(1)
+	{
+		width: 25%;
+		margin-left: 0%;
+	}
+
+	div.home-master-page-footer > div:nth-child(2)
+	{
+		width: 50%;
+		margin-left: 0%;
+	}
+
+	div.home-master-page-footer > div:nth-child(3)
+	{
+		width: 25%;
+		margin-left: 0%;
+	}
+
+	div.home-cards > div:nth-child(1)
+	{
+		width: 33.33333%;
+		margin-left: 10%;
+	}
+
+	div.home-cards > div:nth-child(2)
+	{
+		width: 33.333%;
+		margin-left: 16.667%;
+	}
+
+	div.home-cards > div:nth-child(3)
+	{
+		width: 33.33333%;
+		margin-left: 10%;
+		margin-top: 2%;
+	}
+
+	div.home-cards > div:nth-child(4)
+	{
+		width: 33.333%;
+		margin-left: 16.667%;
+		margin-top: 2%;
+	}
+
+	div.info-section > div
+	{
+		text-align: center;
+	}
+
+	div.info-section > div:nth-child(1)
+	{
+		width: 100%;
+		margin-left: 0%;
+		margin-bottom: 10%;
+		margin-top: 5%;
+	}
+
+	div.info-section > div:nth-child(2)
+	{
+		width: 100%;
+		margin-left: 0%;
+		margin-bottom: 5%;
+	}
+
+	div.info-section > div:nth-child(3)
+	{
+		width: 100%;
+		margin-left: 0%;
+	}
+}
+
+/* Small Layout */
+
+@media mobile
+{
+	#content-section
+	{
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+
+	p.cardTitle
+	{
+		font-size: 14pt;
+	}
+
+	p.info-title
+	{
+		font-size: 24pt;
+	}
+
+	p.info-content
+	{
+		font-size: 12pt;
+	}
+
+	div.home-master-page-footer > div:nth-child(1)
+	{
+		width: 100%;
+	}
+
+	div.home-master-page-footer > div:nth-child(2)
+	{
+		width: 100%;
+	}
+
+	div.home-master-page-footer > div:nth-child(3)
+	{
+		width: 100%;
+	}
+
+	div.home-cards > div
+	{
+		margin-top: 2%;
+	}
+
+	div.home-cards > div:nth-child(1)
+	{
+		width: 100%;
+		margin-left: 0%;
+	}
+
+	div.home-cards > div:nth-child(2)
+	{
+		width: 100%;
+		margin-left: 0%;
+	}
+
+	div.home-cards > div:nth-child(3)
+	{
+		width: 100%;
+		margin-left: 0%;
+	}
+
+	div.home-cards > div:nth-child(4)
+	{
+		width: 100%;
+		margin-left: 0%;
+	}
+
+	div.info-section > div
+	{
+		text-align: center;
+	}
+
+	div.info-section > div:nth-child(1)
+	{
+		width: 100%;
+		margin-left: 0%;
+		margin-bottom: 10%;
+		margin-top: 5%;
+	}
+
+	div.info-section > div:nth-child(2)
+	{
+		width: 100%;
+		margin-left: 0%;
+		margin-bottom: 5%;
+	}
+
+	div.info-section > div:nth-child(3)
+	{
+		width: 100%;
+		margin-left: 0%;
+	}
+
+	div.topic-hero
+	{
+		
+	}
+}
